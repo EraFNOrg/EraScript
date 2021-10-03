@@ -1,5 +1,10 @@
 # EraScript Documentation
 
+## How to use EraScript?
+
+Open %LOCALAPPDATA%, make a directory called "ProjectEra" and put your code in a file named `execute.js`,
+when in-game, open the console (using `~`) and type `cheatscript execute` to execute the code.
+
 ## Functions
 - ```js
   UObject* findObject("Object", false)
@@ -127,6 +132,7 @@
   new FRotator(0, 0, 0)
   ```
 - **TArray<T>**
+  
   Only used in the global variables. Only reading the TArrays is allowed currently
   - ```js
     T TArray.get(1)
