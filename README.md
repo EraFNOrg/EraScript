@@ -117,6 +117,29 @@
   setScaleActor(Actor, FVector)
   ```
 
+## Classes
+- **FVector**
+  ```js
+  new FVector(0, 0, 0)
+  ```
+- **FRotator**
+  ```js
+  new FRotator(0, 0, 0)
+  ```
+- **TArray<T>**
+  Only used in the global variables. Only reading the TArrays is allowed currently
+  - ```js
+    T TArray.get(1)
+    ```
+    ```js
+    Array<T> TArray.get()
+    ```
+    Returns the TArray item at the index or all of the items if no arguments are passed.
+  - ```js
+    TArray.length
+    ```
+    Returns the length of the TArray
+
 ## Global Variables
 - TArray<int> **ammoItemCount**
 - TArray<UObject*> **ammoItemDefs**
