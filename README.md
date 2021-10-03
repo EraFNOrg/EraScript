@@ -116,3 +116,18 @@
 - ```js
   setScaleActor(Actor, FVector)
   ```
+
+## Global Variables
+- TArray<int> **ammoItemCount**
+- TArray<UObject*> **ammoItemDefs**
+- TArray<int> **consumablesItemCount**
+- TArray<UObject*> **consumablesItemDefs**
+- TArray<int> **resourceItemCount**
+- TArray<UObject*> **resourceItemDefs**
+- TArray<int> **trapsItemCount**
+- TArray<UObject*> **trapsItemDefs**
+- TArray<int> **weaponItemCount**
+- TArray<UObject*> **weaponItemDefs**
+- TArray<int> **resourceItemCount**
+- TArray<UObject*> **resourceItemDefs**
+- String **fortniteVersion**
