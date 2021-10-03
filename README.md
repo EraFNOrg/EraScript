@@ -1,9 +1,17 @@
 # EraScript Documentation
 
-## How to use EraScript?
+**Please keep in mind EraScript is currently in Beta.**
+
+## FAQ
+
+> How to use EraScript?
 
 Open %LOCALAPPDATA%, make a directory called "ProjectEra" and put your code in a file named `execute.js`,
 when in-game, open the console (using `~`) and type `cheatscript execute` to execute the code.
+
+> What language does EraScript use?
+
+JavaScript running on the [Duktape](https://duktape.org/) engine.
 
 ## Functions
 - ```js
