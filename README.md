@@ -98,3 +98,21 @@
 
     playSound(sound, getLocation(getLocalPlayer()), 1 ,1);
     ```
+- ```js
+  spawnPickup(Object, FVector, 1)
+  ```
+- ```js
+  grantAbility(Object)
+  ```
+- ```js
+  addToInventory(Object, 1)
+  ```
+- ```js
+  bool isInVehicle()
+  ```
+- ```js
+  UObject* getVehicle()
+  ```
+- ```js
+  setScaleActor(Actor, FVector)
+  ```
