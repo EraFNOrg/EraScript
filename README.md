@@ -129,6 +129,9 @@ JavaScript running on the [Duktape](https://duktape.org/) engine.
 - ```js
   setScaleActor(Actor, FVector)
   ```
+- ```js
+  getLocalPlayer()
+  ```
 
 ## Classes
 - **FVector**
