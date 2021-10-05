@@ -130,7 +130,7 @@ JavaScript running on the [Duktape](https://duktape.org/) engine.
   setScaleActor(Actor, FVector)
   ```
 - ```js
-  getLocalPlayer()
+  UObject* getLocalPlayer()
   ```
 
 ## Classes
